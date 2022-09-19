@@ -1,7 +1,7 @@
 # back-part_1
 LMS notice crawl API
 
-
+![스크린샷 2022-09-20 오전 12 31 36](https://user-images.githubusercontent.com/83647215/191055486-f340bafa-3e0e-4d49-a503-e56f480a6630.png)
 
 crawl.json 예제.
 
