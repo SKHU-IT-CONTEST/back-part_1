@@ -10,11 +10,11 @@ LMS notice crawl API by nodejs
 ## Request
 ``` GET /api/schoolNotice HTTP/1.1
 Auth : Not require.
-Host: https://api3.skhuweather.kro.kr/api/schoolNotice
-Remote Address : 146.56.106.124:443 (oracle server)
+Host: https://api3.skhuweather.kro.kr/schoolNotice
+Remote Address : 146.56.106.124 (oracle server)
 ```
-## Response 304 OK
-``` HTTP/1.1 304 OK
+## Response 200 OK
+``` HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 Content-Length: 825(can changed)
 
@@ -45,10 +45,10 @@ Content-Length: 825(can changed)
 ---
 ![스크린샷 2022-10-10 오후 1 52 19](https://user-images.githubusercontent.com/83647215/194800925-c86eacd1-ab9a-42c2-88f7-ef5bddfa2bb0.png)
 ---
-< pm2로 구동중인 프로세스 >
+< pm2로 구동시킨 프로세스 >
 ![스크린샷 2022-10-10 오후 1 51 43](https://user-images.githubusercontent.com/83647215/194800894-f921071b-aaaf-490f-8ca3-c21704890a4b.png)
 ---
-< API 도메인 구성, api3.skhuweather.kro.kr 서브 도메인 kro.kr 이용 >
+< API 도메인 구성, api3.skhuweather.kro.kr 서브 도메인으로 kro.kr 이용 >
 ![스크린샷 2022-10-10 오후 2 31 30](https://user-images.githubusercontent.com/83647215/194803747-8a91bebc-7e19-49dd-8482-17df8078d99a.png)
 
 ---
