@@ -12,7 +12,8 @@ LMS notice crawl API by nodejs
 ``` GET /api/schoolNotice HTTP/1.1
 Auth : Not require.
 Host: https://api3.skhuweather.kro.kr/api/schoolNotice
-Remote Address : 146.56.106.124:443 (oracle server) ```
+Remote Address : 146.56.106.124:443 (oracle server)
+```
 
 ## Response 304 OK
 ``` HTTP/1.1 304 OK
@@ -52,8 +53,8 @@ Content-Length: 825(can changed)
         "num": 660142,
         "title": "휴학/자퇴 신청 시, 소속학부 학부장님과 면담 진행해 주세요."
     }
-} ```
-
+} 
+```
 ---
 < test.json >
 ![스크린샷 2022-09-20 오전 12 31 36](https://user-images.githubusercontent.com/83647215/191055486-f340bafa-3e0e-4d49-a503-e56f480a6630.png)
