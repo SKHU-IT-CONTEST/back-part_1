@@ -35,9 +35,6 @@ Content-Length: 825(can changed)
 } 
 ```
 ---
-< test.json >
-![스크린샷 2022-09-20 오전 12 31 36](https://user-images.githubusercontent.com/83647215/191055486-f340bafa-3e0e-4d49-a503-e56f480a6630.png)
----
 < 실제 API 서버에서 반환해주는 모습 >
 ![스크린샷 2022-10-10 오후 1 22 03](https://user-images.githubusercontent.com/83647215/194798951-0a7115c2-4e17-4ac0-9c56-e68e2ad100a4.png)
 ---
