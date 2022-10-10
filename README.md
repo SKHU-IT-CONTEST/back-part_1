@@ -63,3 +63,4 @@ Content-Length: 825(can changed)
 
 https://narup.tistory.com/238
 https://developer88.tistory.com/299
+https://hannut91.github.io/blogs/infra/cors
