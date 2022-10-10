@@ -48,7 +48,13 @@ Content-Length: 825(can changed)
 < pm2로 구동시킨 프로세스 >
 ![스크린샷 2022-10-10 오후 1 51 43](https://user-images.githubusercontent.com/83647215/194800894-f921071b-aaaf-490f-8ca3-c21704890a4b.png)
 ---
-< API 도메인 구성, api3.skhuweather.kro.kr 서브 도메인으로 kro.kr 이용 >
+< API 서브 도메인 구성, api3.skhuweather.kro.kr형식의 3차 도메인으로 kro.kr 이용 >
 ![스크린샷 2022-10-10 오후 2 31 30](https://user-images.githubusercontent.com/83647215/194803747-8a91bebc-7e19-49dd-8482-17df8078d99a.png)
+
+---
+
+< letsencrypt를 이용해 SSL인증서 발급 및 적용 > 
+=> https로 api 호출이 가능하도록 구성 하였음, 리버스 프록시를 구성해 cors 방지
+![스크린샷 2022-10-10 오후 11 18 54](https://user-images.githubusercontent.com/83647215/194887495-1da5f007-d168-4d42-8198-7c878c65e1b6.png)
 
 ---
