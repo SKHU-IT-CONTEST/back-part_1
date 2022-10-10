@@ -4,7 +4,7 @@ LMS notice crawl API by nodejs
 ## server : Oracle Free Tier server , ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-1018-oracle x86_64) 춘천서버
 ### nodejs, express, superagent, cheer-io, pm2
 ### crawl resource : https://lms.skhu.ac.kr/ilos/community/notice_list_form.acl
-### API Address(!!Do not use for any other purpose!!): https://api3.skhuweather.kro.kr/schoolNotice 
+### API Address(!!Do not use for any other purpose!!): https://api3.skhuweather.kro.kr/schoolNotice
 ---
 # API info
 ## Request
@@ -47,6 +47,8 @@ Content-Length: 825(can changed)
 ---
 < pm2로 구동중인 프로세스 >
 ![스크린샷 2022-10-10 오후 1 51 43](https://user-images.githubusercontent.com/83647215/194800894-f921071b-aaaf-490f-8ca3-c21704890a4b.png)
-
+---
+< API 도메인 구성, api3.skhuweather.kro.kr 서브 도메인 kro.kr 이용 >
+![스크린샷 2022-10-10 오후 2 31 30](https://user-images.githubusercontent.com/83647215/194803747-8a91bebc-7e19-49dd-8482-17df8078d99a.png)
 
 ---
