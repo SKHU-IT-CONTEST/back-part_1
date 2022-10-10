@@ -8,8 +8,8 @@ app.use(express.urlencoded({ extended: true}));
 
 
 
-app.get("/api/schoolNotice", (req, res) => {
+app.get("/schoolNotice", (req, res) => {
     jebal.updateData().then((res2) => res.json(res2));
 })
 
-app.listen(32023, () => console.log("작동되게 해주세요 ㅠㅠ"));
+app.listen(32023, () => console.log("동작중"));
