@@ -8,7 +8,7 @@ class schoolNotice
         this.date = null;
     }
 
-    async loadDate()
+    async #loadDate()
     {
         if(this.date == null || new Date() - this.date >= 600000)
         {
@@ -21,8 +21,8 @@ class schoolNotice
         
     }
 
-    async updateData() {
-        await this.loadDate().then(res => {if(!res) return this.data; });
+    async #updateData() {
+        await this.#loadDate().then(res => {if(!res) return this.data; });
         let ret = await superagent
             .post("https://lms.skhu.ac.kr/ilos/community/notice_list.acl")
             .set('User-Agent', "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70")
@@ -60,8 +60,11 @@ class schoolNotice
                 i++;
             }
             return this.data;
-    }
+        }
 
+        async getData(){
+            return await this.#updateData();
+        }
 }
 
 module.exports = schoolNotice;
