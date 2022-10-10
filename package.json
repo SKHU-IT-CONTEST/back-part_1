@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "superagent": "^8.0.0",
-    "superagent-cheerio": "^1.0.1"
-  }
-}
