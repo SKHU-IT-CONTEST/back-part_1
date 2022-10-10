@@ -6,6 +6,55 @@ LMS notice crawl API by nodejs
 ### crawl resource : https://lms.skhu.ac.kr/ilos/community/notice_list_form.acl
 ### API Address(!!Do not use for any other purpose!!): https://api3.skhuweather.kro.kr/schoolNotice 
 ---
+#API info
+
+## Request
+``` GET /api/schoolNotice HTTP/1.1
+Auth : Not require.
+Host: https://api3.skhuweather.kro.kr/api/schoolNotice
+Remote Address : 146.56.106.124:443 (oracle server) ```
+
+## Response 304 OK
+``` HTTP/1.1 304 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 825(can changed)
+
+{
+    "0": {
+        "num": 660127,
+        "title": "[도서관] 9/19~10/3. 2022 북적북적 시즌2 참여 안내"
+    },
+    "1": {
+        "num": 659369,
+        "title": "컴퓨터공학/소프트웨어공학/정보통신공학/인공지능전공 LMS 어울림 Class 안내"
+    },
+    "2": {
+        "num": 659361,
+        "title": "신문방송학전공/디지털콘텐츠전공 LMS 어울림 Class 안내"
+    },
+    "3": {
+        "num": 662822,
+        "title": "제25회 일본어스피치콘테스트 시행 및 참가자 모집"
+    },
+    "4": {
+        "num": 662677,
+        "title": "<취업지원>온라인 현직자 직무캠프 추가모집 안내"
+    },
+    "5": {
+        "num": 662589,
+        "title": "제28회 영어스피치페스티벌 시행 및 참가자 모집"
+    },
+    "6": {
+        "num": 661831,
+        "title": "<취업지원> 2022-2학기 토닥토닥취업멘토링 신청안내"
+    },
+    "7": {
+        "num": 660142,
+        "title": "휴학/자퇴 신청 시, 소속학부 학부장님과 면담 진행해 주세요."
+    }
+} ```
+
+---
 < test.json >
 ![스크린샷 2022-09-20 오전 12 31 36](https://user-images.githubusercontent.com/83647215/191055486-f340bafa-3e0e-4d49-a503-e56f480a6630.png)
 ---
