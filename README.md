@@ -1,7 +1,7 @@
 # back-part_1 202214043 윤준석 junseok0304
 LMS notice crawl API by nodejs
-
-## server : oracle free tier server
+---
+## server : Oracle Free Tier server , ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-1018-oracle x86_64) 춘천서버
 ### nodejs, express, superagent, cheer-io, pm2
 ### crawl resource : https://lms.skhu.ac.kr/ilos/community/notice_list_form.acl
 ### API Address(!!Do not use for any other purpose!!): https://api3.skhuweather.kro.kr/schoolNotice 
