@@ -57,7 +57,10 @@ Content-Length: 825(can changed)
 => https로 api 호출이 가능하도록 구성 하였음, 리버스 프록시를 구성해 cors 방지
 ![스크린샷 2022-10-10 오후 11 18 54](https://user-images.githubusercontent.com/83647215/194887495-1da5f007-d168-4d42-8198-7c878c65e1b6.png)
 
----
+< Namecheap .me 도메인 >
+
+---<img width="1437" alt="스크린샷 2022-10-13 오전 10 21 29" src="https://user-images.githubusercontent.com/83647215/195477239-322b7b95-9585-4266-9b88-5deb95a805c1.png">
+
 
 개발시 참고한 자료
 
